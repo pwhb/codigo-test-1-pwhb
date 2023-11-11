@@ -11,29 +11,29 @@ const movies = [
 export default function HorizontalScroll()
 {
     return <>
-        <div className="flex overflow-x-auto flex-row gap-5 bg-black scrollbar-hide no-scrollbar">
+        <div className="flex overflow-x-auto flex-row gap-5 my-3 bg-black scrollbar-hide no-scrollbar">
             {movies.map((src, idx) => (
                 <img
                     key={`img-${idx}`}
-                    className="h-32"
+                    className="h-32 rounded-md"
                     src={src}
                 />
             ))}
 
         </div>
 
-        <div className="flex overflow-x-auto flex-row gap-5 bg-black scrollbar-hide no-scrollbar">
+        <div className="flex overflow-x-auto flex-row gap-5 my-3 bg-black scrollbar-hide no-scrollbar">
             {movies.map((src, idx) => (
                 <img
                     key={`img-${idx}`}
-                    className="h-32"
+                    className="h-32 rounded-md"
                     src={src}
                 />
             ))}
 
         </div>
 
-        <div className="flex overflow-x-auto flex-row gap-5 bg-black scrollbar-hide no-scrollbar">
+        <div className="flex overflow-x-auto flex-row gap-5 my-3 bg-black scrollbar-hide no-scrollbar">
             {movies.map((src, idx) => (
                 <img
                     key={`img-${idx}`}
