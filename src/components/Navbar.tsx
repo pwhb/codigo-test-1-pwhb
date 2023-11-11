@@ -61,7 +61,7 @@ export default function Navbar()
                 <img src="/shop-bag-svgrepo-com.svg" alt="" className="my-3 w-4" />
             </div>
 
-            <div className="flex flex-row justify-between items-center px-5 py-3 text-xs bg-black text-neutral-300">
+            <div className="flex flex-row justify-between px-5 py-3 text-xs bg-black text-neutral-300">
                 <a href="" className="text-xl font-semibold text-neutral-100">Apple TV+</a>
                 <a href="/channel/tv" className="px-3 py-1 rounded-full bg-neutral-200 text-neutral-800">Stream now</a>
             </div>

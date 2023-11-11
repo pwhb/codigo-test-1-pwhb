@@ -13,7 +13,7 @@ export default function Devices()
         "https://www.apple.com/v/apple-tv-plus/ag/images/overview/icon_xbox__cfelmbxxfoaa_medium.jpg",
     ];
     return <>
-        <div className="flex flex-col items-center my-10">
+        <div className="flex flex-col items-center mx-10">
 
             <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_app_icon__cth1s5qlqpyu_medium.png" alt="" />
 
@@ -21,7 +21,7 @@ export default function Devices()
 
             <p className="max-w-md text-center">Find the Apple TV app on your favorite Apple devices.
                 Or watch Apple TV+ online at <a href="" className="text-blue-600 hover:underline">tv.apple.com</a>.</p>
-            <div className="flex flex-row flex-wrap gap-12 justify-center items-center m-10">
+            <div className="flex flex-row flex-wrap gap-12 justify-center items-center my-10">
                 <div className="text-center">
                     <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/icon_apple_tv__r2nel0gcigam_medium.jpg" alt="" />
                     <p className="mt-3 font-medium">Apple TV</p>

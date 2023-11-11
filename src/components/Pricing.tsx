@@ -33,7 +33,7 @@ export default function Pricing()
 
 
             <div className="flex flex-col gap-3 mx-10">
-                <div className="w-[400px] my-20">
+                <div className="w-[240px] my-20">
                     <p className="text-lg font-semibold text-neutral-100">
                         Buy an Apple device</p>
                     <p className="my-2 text-3xl font-bold text-neutral-100">3 months free.</p>
@@ -41,7 +41,7 @@ export default function Pricing()
 
                     <button className="px-4 py-3 mt-10 mb-5 w-36 text-sm font-medium text-black rounded-full bg-neutral-100">Check eligibility</button>
                 </div>
-                <div className="w-[400px] my-20">
+                <div className="w-[240px] my-20">
                     <p className="text-lg font-semibold text-neutral-100">
                         Free 7-day trial</p>
                     <p className="my-2 text-3xl font-bold text-neutral-100">$9.99/mo.</p>
@@ -49,7 +49,7 @@ export default function Pricing()
 
                     <button className="px-4 py-3 mt-10 mb-5 w-36 text-sm font-medium text-black rounded-full bg-neutral-100">Try it free</button>
                 </div>
-                <div className="w-[400px] my-20">
+                <div className="w-[240px] my-20">
                     <p className="text-lg font-semibold text-neutral-100">
                         Free 1‑month trial</p>
                     <p className="my-2 text-3xl font-bold text-neutral-100">Apple One</p>
