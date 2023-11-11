@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "../components/Footer";
 import FAQ from "../components/FAQ";
+import Cards from "../components/Cards";
 
 function App()
 {
@@ -14,6 +15,7 @@ function App()
       </div>
 
       <FAQ />
+      <Cards />
       <Footer />
     </>
   );
