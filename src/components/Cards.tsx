@@ -3,7 +3,7 @@ import "./Cards.css";
 export default function Cards()
 {
     return <>
-        <div className="grid grid-cols-2 gap-5 mx-auto my-8 max-w-2xl">
+        <div className="grid grid-cols-2 gap-5 mx-auto my-8 max-w-2xl md:max-w-[84rem]">
             <AppleOne></AppleOne>
             <AppleMusic></AppleMusic>
             <AppleTV></AppleTV>
@@ -14,12 +14,12 @@ export default function Cards()
 
 function AppleOne()
 {
-    return <div className="col-span-2 px-16 py-16 h-80 card">
+    return <div className="col-span-2 px-16 py-16 h-80 md:h-[32rem] card">
         <div className="flex flex-row justify-center items-center">
-            <img className="h-40" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/bundle__e93qdcv7mtm6_medium.jpg" alt="" />
-            <div className="flex flex-col items-center max-w-sm">
-                <img className="w-12" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_one__b0modw3b87xy_large.png" alt="" />
-                <p className="my-3 text-xl font-bold text-center">Bundle Apple TV+ with
+            <img className="h-40 md:h-80" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/bundle__e93qdcv7mtm6_medium.jpg" alt="" />
+            <div className="flex flex-col items-center max-w-sm md:max-w-lg">
+                <img className="w-12 md:w-24" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_one__b0modw3b87xy_large.png" alt="" />
+                <p className="my-3 text-xl font-bold text-center md:my-8 md:text-4xl">Bundle Apple TV+ with
                     up to five other great services.
                     And enjoy more for less.</p>
 
@@ -32,15 +32,15 @@ function AppleOne()
 }
 function AppleMusic()
 {
-    return <div className="col-span-2 px-16 h-64 card">
+    return <div className="col-span-2 px-16 h-64 md:h-96 card">
         <div className="flex flex-row gap-6 justify-center items-center">
-            <div className="flex flex-col items-center w-56">
-                <p className="my-3 text-xl font-bold text-left">The Apple Music Student Plan comes with Apple TV+ for free.<sup>5</sup></p>
+            <div className="flex flex-col items-start w-56 md:w-[26rem]">
+                <p className="my-3 text-xl font-bold md:text-4xl">The Apple Music Student Plan comes with Apple TV+ for free.<sup>5</sup></p>
 
                 <Button>Try Apple Music free</Button>
 
             </div>
-            <img className="h-64" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/student_plan__bm7yp0v4tf6u_large.jpg" alt="" />
+            <img className="h-64 md:h-[24rem]" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/student_plan__bm7yp0v4tf6u_large.jpg" alt="" />
         </div>
     </div>;
 }
@@ -50,8 +50,8 @@ function AppleTV()
         <div className="flex flex-col justify-center items-center">
 
 
-            <img className="mt-10 h-5" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_4k_logo__bx1mtrage32a_large.png" alt="" />
-            <p className="my-2 w-64 text-xl font-bold text-center">The Apple experience.
+            <img className="mt-10 h-5 md:h-10" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_4k_logo__bx1mtrage32a_large.png" alt="" />
+            <p className="my-2 w-64 text-xl font-bold text-center md:my-10 md:w-96 md:text-4xl">The Apple experience.
                 Cinematic in every sense.
 
             </p>
@@ -61,7 +61,7 @@ function AppleTV()
                 <a href="" className="text-blue-600 hover:underline">Learn more {">"}</a>
             </div>
             <br />
-            <img className="w-70" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_4k_remote__igmcbznr1w2u_large.jpg" alt="" />
+            <img className="w-72" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_4k_remote__igmcbznr1w2u_large.jpg" alt="" />
         </div>
     </div>;
 }
@@ -71,12 +71,12 @@ function AirPlay()
         <div className="flex flex-col justify-center items-center">
 
 
-            <p className="mt-10 text-xl font-semibold text-center">AirPlay</p>
-            <p className="mt-2 mb-4 w-64 text-xl font-bold text-center">Bring Apple TV+ to
+            <p className="mt-10 text-xl font-semibold text-center md:text-4xl">AirPlay</p>
+            <p className="mt-2 mb-4 w-64 text-xl font-bold text-center md:w-96 md:text-4xl">Bring Apple TV+ to
                 a screen near you.</p>
             <a href="" className="text-blue-600 hover:underline">Learn more {">"}</a>
             <br />
-            <img className="w-72" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/air_play__dyuvvwnd5riq_large.jpg" alt="" />
+            <img className="w-72 md:w-[48rem]" src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/air_play__dyuvvwnd5riq_large.jpg" alt="" />
         </div>
     </div>;
 }
