@@ -389,7 +389,7 @@ export default function Footer()
                 <br />
                 <p className="mb-2 text-xs text-neutral-500">Copyright © 2023 Apple Inc. All rights reserved.</p>
 
-                <ul className="flex flex-row gap-2 text-xs text-neutral-700">
+                <ul className="flex flex-row flex-wrap gap-2 justify-center items-center text-xs text-neutral-700">
                     <li className="hover:underline"><a href="">Privacy Policy</a></li>
                     <li>|</li>
                     <li className="hover:underline"><a href="">Terms of Use</a></li>
