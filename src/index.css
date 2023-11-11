@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/SF-Pro.ttf') format('opentype');
+    /* Add additional font weights and styles if needed */
+}
+
+body {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}

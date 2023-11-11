@@ -1,5 +1,6 @@
-import { useEffect } from "react";
 import "./App.css";
+import Footer from "../components/Footer";
+import FAQ from "../components/FAQ";
 
 function App()
 {
@@ -12,7 +13,8 @@ function App()
 
       </div>
 
-      <QAndA />
+      <FAQ />
+      <Footer />
     </>
   );
 }
@@ -21,7 +23,7 @@ function App()
 function QAndA()
 {
   return <>
-    <p className="branding-lockup__content__title">Questions? Answers.</p>
+    <p className="text-4xl font-bold text-center">Questions? Answers.</p>
   </>;
 }
 
