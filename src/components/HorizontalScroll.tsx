@@ -12,7 +12,7 @@ export default function HorizontalScroll()
 {
 
     return <>
-        <div className="flex overflow-x-auto flex-row gap-5 my-3 bg-black scrollbar-hide no-scrollbar">
+        <div className="flex overflow-x-auto flex-row gap-5 mx-auto my-3 max-w-3xl bg-black scrollbar-hide no-scrollbar">
             {movies.map((src, idx) => (
                 <img
                     key={`top-img-${idx}`}
@@ -24,7 +24,7 @@ export default function HorizontalScroll()
 
         </div>
 
-        <div className="flex overflow-x-auto flex-row gap-5 my-3 bg-black scrollbar-hide no-scrollbar">
+        <div className="flex overflow-x-auto flex-row gap-5 mx-auto my-3 max-w-3xl bg-black scrollbar-hide no-scrollbar">
             {movies.map((src, idx) => (
                 <img
                     key={`btm-img-${idx}`}
