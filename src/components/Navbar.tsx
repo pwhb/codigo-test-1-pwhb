@@ -49,7 +49,7 @@ export default function Navbar()
             };
         }
     }, [lastScrollY]);
-    const [tab, setTab] = useState(0);
+    // const [tab, setTab] = useState(0);
     return <div className="fixed top-0 w-full bg-black text-neutral-300">
         <div className="mx-auto max-w-6xl">
             <div className={`flex flex-row justify-between items-center px-5 text-xs  ${show ? "":"hidden"}`} >
