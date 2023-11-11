@@ -3,7 +3,7 @@ export default function Pricing()
     return <>
         <div className="text-white bg-black">
 
-            <div className="grid grid-cols-3 gap-3 mx-auto max-w-2xl">
+            <div className="grid grid-cols-3 gap-3 mx-auto max-w-2xl lg:max-w-4xl">
                 <div className="w-[200px] my-20">
                     <p className="text-lg font-semibold text-neutral-100">
                         Buy an Apple device</p>

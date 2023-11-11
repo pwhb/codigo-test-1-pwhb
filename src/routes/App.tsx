@@ -6,6 +6,7 @@ import Devices from "../components/Devices";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Pricing from "../components/Pricing";
+import Lineup from "../components/Lineup";
 
 function App()
 {
@@ -14,6 +15,7 @@ function App()
       <Navbar />
       <Hero />
       <Pricing />
+      <Lineup />
       <Devices />
       <FAQ />
       <Cards />
