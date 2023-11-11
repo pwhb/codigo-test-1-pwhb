@@ -52,7 +52,7 @@ export default function Navbar()
     // const [tab, setTab] = useState(0);
     return <div className="fixed top-0 w-full bg-black text-neutral-300">
         <div className="mx-auto max-w-6xl">
-            <div className={`flex flex-row justify-between items-center px-5 text-xs  ${show ? "":"hidden"}`} >
+            <div className={`hidden md:flex flex-row justify-between items-center px-5 text-xs  ${show ? "":"md:hidden"}`} >
                 <img src="/apple-173-svgrepo-com.svg" className="my-3 w-4" alt="" />
                 {Object.values(dropdowns).map((v, idx) => <button key={`nav-menu-${idx}`}>{v}</button>)}
 

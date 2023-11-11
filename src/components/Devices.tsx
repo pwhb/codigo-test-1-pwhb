@@ -17,11 +17,11 @@ export default function Devices()
 
             <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_app_icon__cth1s5qlqpyu_medium.png" alt="" />
 
-            <p className="my-4 max-w-lg text-4xl font-bold text-center">Watch Apple TV+ anywhere on the Apple TV app.</p>
+            <p className="my-4 max-w-lg font-bold text-center md:text-4xl">Watch Apple TV+ anywhere on the Apple TV app.</p>
 
             <p className="max-w-md text-center">Find the Apple TV app on your favorite Apple devices.
                 Or watch Apple TV+ online at <a href="" className="text-blue-600 hover:underline">tv.apple.com</a>.</p>
-            <div className="flex flex-row gap-12 my-10">
+            <div className="flex flex-row flex-wrap gap-12 justify-center items-center m-10">
                 <div className="text-center">
                     <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/icon_apple_tv__r2nel0gcigam_medium.jpg" alt="" />
                     <p className="mt-3 font-medium">Apple TV</p>
