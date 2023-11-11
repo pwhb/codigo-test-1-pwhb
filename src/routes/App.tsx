@@ -3,17 +3,17 @@ import Footer from "../components/Footer";
 import FAQ from "../components/FAQ";
 import Cards from "../components/Cards";
 import Devices from "../components/Devices";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Pricing from "../components/Pricing";
 
 function App()
 {
   return (
     <>
-
-      <div className="mx-auto bg-black canvas">
-        <video src="https://tv.apple.com/us/show/the-buccaneers/umc.cmc.g28hcpusm23xbs9zwvnwn9re?ctx_brand=tvs.sbd.4000"></video>
-
-
-      </div>
+      <Navbar />
+      <Hero />
+      <Pricing />
       <Devices />
       <FAQ />
       <Cards />

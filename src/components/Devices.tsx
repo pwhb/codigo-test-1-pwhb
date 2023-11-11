@@ -20,7 +20,7 @@ export default function Devices()
             <p className="my-4 max-w-lg text-4xl font-bold text-center">Watch Apple TV+ anywhere on the Apple TV app.</p>
 
             <p className="max-w-md text-center">Find the Apple TV app on your favorite Apple devices.
-                Or watch Apple TV+ online at tv.apple.com.</p>
+                Or watch Apple TV+ online at <a href="" className="text-blue-600 hover:underline">tv.apple.com</a>.</p>
             <div className="flex flex-row gap-12 my-10">
                 <div className="text-center">
                     <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/icon_apple_tv__r2nel0gcigam_medium.jpg" alt="" />
