@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 const movies = [
     "https://is1-ssl.mzstatic.com/image/thumb/A3RqcRODqsL1IkMDfK3rEA/1679x945sr.webp",
     "https://is1-ssl.mzstatic.com/image/thumb/A3RqcRODqsL1IkMDfK3rEA/1679x945sr.webp",
