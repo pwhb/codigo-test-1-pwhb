@@ -20,12 +20,5 @@ function App()
 }
 
 
-function QAndA()
-{
-  return <>
-    <p className="text-4xl font-bold text-center">Questions? Answers.</p>
-  </>;
-}
-
 
 export default App;

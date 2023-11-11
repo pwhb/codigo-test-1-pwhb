@@ -1,12 +1,6 @@
 export default function FAQ()
 {
-    const faqs = [
-        {
-            question: "What is Apple TV+?",
-            answer: "Apple TV+ is a streaming service featuring Apple Originals — award-winning series, compelling dramas, groundbreaking documentaries, kids’ entertainment, comedies, and more — with new Apple Originals added every month."
-        }
 
-    ];
     return <div className="px-5 mx-auto max-w-screen-xl bg-white min-h-sceen">
         <div className="flex flex-col items-center">
             <h2 className="mt-5 text-4xl font-bold tracking-tight">
