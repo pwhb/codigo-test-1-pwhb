@@ -63,7 +63,7 @@ export default function Navbar()
 
             <div className="flex flex-row justify-between items-center px-5 py-3 text-xs bg-black text-neutral-300">
                 <a href="" className="text-xl font-semibold text-neutral-100">Apple TV+</a>
-                <a href="" className="px-3 py-1 rounded-full bg-neutral-200 text-neutral-800">Stream now</a>
+                <a href="/channel/tv" className="px-3 py-1 rounded-full bg-neutral-200 text-neutral-800">Stream now</a>
             </div>
         </div>
     </div>;
