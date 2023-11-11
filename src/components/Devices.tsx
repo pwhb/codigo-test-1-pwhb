@@ -13,7 +13,7 @@ export default function Devices()
         "https://www.apple.com/v/apple-tv-plus/ag/images/overview/icon_xbox__cfelmbxxfoaa_medium.jpg",
     ];
     return <>
-        <div className="flex flex-col items-center mx-10">
+        <div className="flex flex-col items-center mx-8 mt-24">
 
             <img src="https://www.apple.com/v/apple-tv-plus/ag/images/overview/apple_tv_app_icon__cth1s5qlqpyu_medium.png" alt="" />
 
@@ -47,8 +47,8 @@ export default function Devices()
             <p className="max-w-xs text-2xl font-bold text-center">See it on your smart TV or streaming device.</p>
             <a href="" className="my-3 text-blue-600 hover:underline">Set up your device {">"}</a>
 
-            <div className="flex flex-row flex-wrap gap-12 justify-center items-center my-8 max-w-3xl">
-                {logos.map((logo, idx) => <img src={logo} key={`logo-${idx}`} />)}
+            <div className="flex flex-row flex-wrap gap-3 justify-center items-center my-8 max-w-3xl md:gap-12">
+                {logos.map((logo, idx) => <img className="w-16" src={logo} key={`logo-${idx}`} />)}
             </div>
         </div>
     </>;
