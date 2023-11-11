@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "../components/Footer";
 import FAQ from "../components/FAQ";
 import Cards from "../components/Cards";
+import Devices from "../components/Devices";
 
 function App()
 {
@@ -13,7 +14,7 @@ function App()
 
 
       </div>
-
+      <Devices />
       <FAQ />
       <Cards />
       <Footer />
