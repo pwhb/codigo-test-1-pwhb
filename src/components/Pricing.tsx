@@ -32,7 +32,7 @@ export default function Pricing()
             </div>
 
 
-            <div className="flex flex-col gap-3 mx-10">
+            <div className="flex flex-col gap-3 mx-10 md:hidden">
                 <div className="w-[240px] my-20">
                     <p className="text-lg font-semibold text-neutral-100">
                         Buy an Apple device</p>
